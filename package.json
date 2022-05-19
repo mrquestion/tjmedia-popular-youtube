@@ -21,6 +21,7 @@
     "@aws-sdk/client-cognito-identity": "^3.94.0",
     "@aws-sdk/client-lambda": "^3.94.0",
     "@aws-sdk/credential-provider-cognito-identity": "^3.94.0",
+    "@parcel/transformer-sass": "^2.5.0",
     "@types/react-dom": "^18.0.4",
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.10",
