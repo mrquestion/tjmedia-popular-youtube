@@ -1,0 +1,63 @@
+$fa-font-path: '../node_modules/@fortawesome/fontawesome-free/webfonts';
+@import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '@fortawesome/fontawesome-free/scss/solid.scss';
+@import '@fortawesome/fontawesome-free/scss/brands.scss';
+
+.flex {
+  display: flex;
+
+  &.row {
+    flex-direction: column;
+  }
+
+  &.column {
+    flex-direction: row;
+  }
+
+  &.wrap {
+    flex-wrap: wrap;
+  }
+
+  &.gap-1 {
+    gap: .5rem;
+  }
+
+  .shrink-1 {
+    flex-shrink: 1;
+  }
+
+  .grow-1 {
+    flex-grow: 1;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.query-box {
+  padding: .5rem;
+  max-width: 600px;
+  border: 1px solid black;
+  border-radius: .5rem;
+
+  .query-type,
+  .query-start-date,
+  .query-end-date {
+    flex-basis: 100px;
+    padding: .5rem;
+  }
+  .query-buttons {
+    flex-basis: 200px;
+    min-height: 2rem;
+  }
+}
+
